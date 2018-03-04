@@ -26,6 +26,9 @@ See more at http://blog.squix.ch
 
 // Bodmer change: '`' changed to tiny degree symbol (typically this character is on top left key of a QWERTY keyboard)
 
+#ifndef ARIALROUNDEDMTBOLD_36_H
+#define ARIALROUNDEDMTBOLD_36_H
+
 const uint8_t ArialRoundedMTBold_36Bitmaps[] PROGMEM = {
 
   // Bitmap Data:
@@ -224,3 +227,4 @@ const GFXglyph ArialRoundedMTBold_36Glyphs[] PROGMEM = {
 const GFXfont ArialRoundedMTBold_36 PROGMEM = {    // Last character bug fixed 0x7E to 0x7D
 (uint8_t  *)ArialRoundedMTBold_36Bitmaps,(GFXglyph *)ArialRoundedMTBold_36Glyphs,0x20, 0x7D, 43};
 
+#endif

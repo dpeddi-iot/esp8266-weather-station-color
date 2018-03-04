@@ -18,6 +18,9 @@ SOFTWARE.
 See more at http://blog.squix.ch
 */
 
+#ifndef ARIALROUNDEDMTBOLD_14_H
+#define ARIALROUNDEDMTBOLD_14_H
+
 // Created by http://oleddisplay.squix.ch/ Consider a donation
 // In case of problems make sure that you are using the font file with the correct version!
 
@@ -221,4 +224,6 @@ const GFXglyph ArialRoundedMTBold_14Glyphs[] PROGMEM = {
 };
 const GFXfont ArialRoundedMTBold_14 PROGMEM = {    // Last character bug fixed 0x7E to 0x7D
 (uint8_t  *)ArialRoundedMTBold_14Bitmaps,(GFXglyph *)ArialRoundedMTBold_14Glyphs,0x20, 0x7D, 17};
+
+#endif
 
